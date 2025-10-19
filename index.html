@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Lời chúc 20-10 cho bạn !. Vì bạn xứng đáng ^_^ </title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #ffe6f0, #ffb6c1);
+      text-align: center;
+      padding: 50px;
+      color: #333;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 30px;
+    }
+    #message {
+      font-size: 1.5em;
+      margin: 30px 0;
+      padding: 20px;
+      background-color: #fff0f5;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    button {
+      font-size: 1.2em;
+      padding: 10px 20px;
+      background-color: #ff69b4;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #ff85c1;
+    }
+  </style>
+</head>
+<body>
+  <h1>🌸 Lời chúc 20-10 dành cho bạn gái 🌸</h1>
+  <div id="message">Nhấn vào nút bên dưới để nhận lời chúc!</div>
+  <button onclick="showMessage()">💌 Nhận lời chúc mới</button>
+
+  <script>
+    const messages = [
+      "Chúc bạn gái luôn rạng rỡ như hoa, ngọt ngào như nắng và hạnh phúc như gió thu!",
+      "20-10 là ngày đặc biệt để tôn vinh bạn — người con gái tuyệt vời nhất!",
+      "Chúc bạn luôn mạnh mẽ, tự tin và được yêu thương mỗi ngày!",
+      "Bạn là món quà quý giá mà cuộc sống ban tặng. Chúc bạn một ngày 20-10 thật ý nghĩa!",
+      "Cảm ơn bạn đã luôn là ánh sáng trong cuộc sống của mọi người. Chúc bạn luôn hạnh phúc!",
+      "Chúc bạn gái luôn cười thật tươi, sống thật vui và yêu thật nhiều!",
+      "Mỗi ngày bên bạn đều là một ngày đẹp. Chúc bạn mãi mãi xinh đẹp và yêu đời!",
+      "Chúc bạn luôn được bao quanh bởi sự quan tâm, yêu thương và những điều tốt đẹp!",
+      "Bạn là nguồn cảm hứng bất tận. Chúc bạn một ngày 20-10 đầy niềm vui và bất ngờ!",
+      "Chúc bạn gái một ngày 20-10 tràn ngập hoa, quà và những lời yêu thương!"
+    ];
+
+    function showMessage() {
+      const randomIndex = Math.floor(Math.random() * messages.length);
+      document.getElementById("message").innerText = messages[randomIndex];
+    }
+  </script>
+</body>
+</html>
